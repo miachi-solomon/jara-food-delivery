@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: white;
+}
+
+.image-container {
+    height: 85px;
+}
+
+.logo-svg {
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    align-items: center;
+    background-color: white;
+}
+
+.flex-navbar {
+    margin-left: auto;
+    height: 35px;
+}
+
+.location-logo {
+    height: 20px;
+}
+
+.search-bar {
+    width: 80%;
+    height: 40px;
+    background-color: #144D3D;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-container {
+    display: flex;
+    gap: 10px;
+}
+
+.search-btn {
+    background-color: #144D3D;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.search-icon {
+    height: 20px;
+}
+
+.location-icon-img {
+    height: 20px;
+}
+
+.location-btn {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 15%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#home {
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.home-text {
+    width: 100%;
+}
+
+.home-text-btn {
+    width: 500px;
+    margin-top: 150px;
+}
+
+.choose-vendor-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-btn {
+    margin-left: 15px;
+    background-color:#57b182;
+    color: white;
+}
+
+#home, .navbar {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.login-btn, .signup-btn {
+    height: 37px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.login-btn {
+    background-color: transparent;
+    border: 0.63px solid #144D3D;
+    color: #144D3D;
+}
+
+.signup-btn {
+    background-color: #144D3D;
+}
+
+span {
+    color: #144D3D;
+}
+
+.header-text {
+    font-size: 90px;
+}
+
+.descriptive-text {
+    color: rgb(46, 46, 46);
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+input {
+    color: white;
+}
+
+input::placeholder {
+    color: #d3d3d3;
+}
+
+#vendors {
+    height: 100vh;
+    background-color: #144D3D;
+}

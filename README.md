@@ -1,1 +1,1 @@
-# jara-food-delivery
+JARA food delivery is a simple idea for a business that helps users order food from a variety of restuarants or vendors and helps with quick delivery
