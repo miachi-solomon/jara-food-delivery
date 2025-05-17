@@ -44,8 +44,8 @@ body {
 
 .search-bar {
     width: 80%;
-    height: 40px;
-    background-color: #144D3D;
+    height: 51px;
+    background-color: #005B56;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -62,13 +62,6 @@ body {
 .form-container {
     display: flex;
     gap: 10px;
-}
-
-.search-btn {
-    background-color: #144D3D;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 20px;
 }
 
 .search-icon {
@@ -90,8 +83,17 @@ body {
 
 #home {
     display: flex;
-    justify-content: flex-start;
     height: 100vh;
+}
+
+.food-home-img {
+    width: 100%;
+}
+
+.home-image-container {
+    width: 500px;
+    margin-left: auto;
+    margin-top: 100px;
 }
 
 .home-text {
@@ -129,20 +131,23 @@ body {
 
 .login-btn {
     background-color: transparent;
-    border: 0.63px solid #144D3D;
-    color: #144D3D;
+    border: 0.63px solid #005B56;
+    color: #005B56;
 }
 
 .signup-btn {
-    background-color: #144D3D;
+    background-color: #005B56;
 }
 
 span {
-    color: #144D3D;
+    /* color: #144D3D; */
+    color: #005B56;
+    font-style: italic;
 }
 
 .header-text {
-    font-size: 90px;
+    font-size: 6.5rem;
+    
 }
 
 .descriptive-text {
@@ -150,6 +155,7 @@ span {
     font-size: 15px;
     margin-top: 5px;
     margin-bottom: 20px;
+    width: 400px;
 }
 
 input {
@@ -157,10 +163,31 @@ input {
 }
 
 input::placeholder {
-    color: #d3d3d3;
+    /* color: #d3d3d3; */
+    color: white;
 }
 
-#vendors {
-    height: 100vh;
+.login-btn:hover {
     background-color: #144D3D;
+    color: white;
+}
+
+.signup-btn:hover {
+    background-color: white;
+    border: 0.63px solid #144D3D;
+    color: #144D3D;
+}
+
+#about {
+    height: 90vh;
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutimg {
+    width: 400px;
+    height: 266px;
 }
