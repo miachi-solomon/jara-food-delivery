@@ -140,7 +140,6 @@ body {
 }
 
 span {
-    /* color: #144D3D; */
     color: #005B56;
     font-style: italic;
 }
@@ -162,32 +161,68 @@ input {
     color: white;
 }
 
-input::placeholder {
-    /* color: #d3d3d3; */
+input::placeholder { 
     color: white;
 }
 
 .login-btn:hover {
-    background-color: #144D3D;
+    background-color: #005B56;
     color: white;
 }
 
 .signup-btn:hover {
     background-color: white;
     border: 0.63px solid #144D3D;
-    color: #144D3D;
+    color: #005B56;
 }
 
 #about {
     height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-image {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 .aboutimg {
     width: 400px;
     height: 266px;
+    margin-bottom: 30px;
+}
+
+.about-image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.first-grid {
+    display: flex;
+    gap: 100px;
+}
+
+.second-grid {
+    display: flex;
+    gap: 100px;
+}
+
+.aboutimg-text {
+    font-size: 15px;
+}
+
+.aboutimg-text-container {
+    width: 400px;
+}
+
+.text-container {
+    margin-bottom: 30px;
+}
+
+.text-container h2 {
+    font-size: 50px;
 }
