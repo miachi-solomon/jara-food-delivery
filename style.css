@@ -177,7 +177,7 @@ input::placeholder {
 }
 
 #about {
-    height: 90vh;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,5 +238,5 @@ input::placeholder {
 }
 
 .grid-img-and-text:hover {
-    box-shadow: 0.1px 0.1px 4px #144D3D;
+    box-shadow: 0.1px 0.1px 3px #144D3D;
 }
