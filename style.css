@@ -234,9 +234,49 @@ input::placeholder {
     height: 500px;
     border: 0.63px solid #144D3D;
     border-radius: 30px;
-    transition: box-shadow 0.3s ease-in;
+    transition: box-shadow 0.5s ease-in-out;
 }
 
 .grid-img-and-text:hover {
     box-shadow: 0.1px 0.1px 3px #144D3D;
+}
+
+#order {
+    background-color: #005B56;
+    height: 70vh;
+}
+
+#order > h2 {
+    color: white;
+    text-align: center;
+    /* background-color: red; */
+    position: relative;
+    top: 50px;
+}
+
+.order-placement {
+    display: inline-flex;
+    background-color: brown;
+    padding: 40px;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.number {
+    margin-right: 30px;
+    color: white;
+    font-size: 3em;
+}
+
+.order-placement > p {
+    color: white;
+}
+
+.orders-step {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
