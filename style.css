@@ -243,7 +243,10 @@ input::placeholder {
 }
 
 #order {
-    background-color: #005B56;
+    background-image: url(images/pexels-vanessa-loring-5972006.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(10px);
     height: 75vh;
 }
 
