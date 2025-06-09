@@ -30,8 +30,10 @@ body {
     padding-right: 40px;
     padding-left: 40px;
     align-items: center;
-    background-color: white;
     border-bottom: 0.05px solid rgba(211, 211, 211, 0.5);
+    background: transparent;
+    backdrop-filter: blur(8px);
+    z-index: 100;
 }
 
 .flex-navbar {
@@ -140,7 +142,7 @@ body {
     background-color: #005B56;
 }
 
-span {
+.italic-text {
     color: #005B56;
     font-style: italic;
 }
@@ -199,17 +201,17 @@ input::placeholder {
 .about-image-container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 80px;
 }
 
 .first-grid {
     display: flex;
-    gap: 100px;
+    gap: 150px;
 }
 
 .second-grid {
     display: flex;
-    gap: 100px;
+    gap: 150px;
 }
 
 .aboutimg-text {
@@ -227,7 +229,9 @@ input::placeholder {
 }
 
 .text-container h2 {
-    font-size: 50px;
+    font-size: 4rem;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .grid-img-and-text {
@@ -239,23 +243,15 @@ input::placeholder {
 }
 
 .grid-img-and-text:hover {
-    box-shadow: 0.1px 0.1px 3px #144D3D;
-}
-
-#order {
-    background-image: url(images/pexels-vanessa-loring-5972006.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    filter: blur(10px);
-    height: 75vh;
+    box-shadow: 0.1px 0.1px 4px #144D3D;
 }
 
 #order > h2 {
-    color: white;
+    color: black;
     text-align: center;
-    position: relative;
-    top: 60px;
-    font-size: 2rem;
+    font-size: 4rem;
+    margin-bottom: 100px;
+    margin-top: 200px;
 }
 
 .order-placement {
@@ -277,7 +273,7 @@ input::placeholder {
 }
 
 .order-placement > p {
-    color: white;
+    color: black;
     width: 250px;
     height: 80px;
     display: flex;
@@ -288,7 +284,7 @@ input::placeholder {
     border-right: 0.1px solid rgba(225, 225, 225, 0.9);
     border-top: 0.1px solid rgba(225, 225, 225, 0.9);
     border-bottom: 0.1px solid rgba(225, 225, 225, 0.9);
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .orders-step {
@@ -297,4 +293,93 @@ input::placeholder {
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin-bottom: 100px;
+}
+
+#call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-container {
+    width: 800px;
+    height: 320px;
+    margin-bottom: 150px;
+    padding: 20px;
+    border-radius: 25px;
+    border: 0.1px solid black;
+    position: relative;
+}
+
+.call-to-action-container > h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.continue-btn {
+    position: absolute;
+    right: 45px;
+    bottom: 20px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    font-size: 19px;
+    background-color: #005B56;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.continue-arrow {
+    margin-left: 5px;
+}
+
+#review {
+    margin-left: 50px;
+}
+
+#review > h3 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.review {
+    width: 400px;
+    height: 220px;
+    background-color: rgb(232, 232, 232);
+    position: relative;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.rating-container {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+.rating-header {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.under-rating-header {
+    font-size: 15px;
+    text-align: right;
+    font-style: italic;
+    color: grey;
+}
+
+.review-text {
+    font-size: 14px;
 }
