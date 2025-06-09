@@ -338,17 +338,13 @@ input::placeholder {
     margin-left: 5px;
 }
 
-#review {
-    margin-left: 50px;
-}
-
 #review > h3 {
     text-align: center;
     font-size: 4rem;
+    margin-bottom: 100px;
 }
 
 .review {
-    width: 400px;
     height: 220px;
     background-color: rgb(232, 232, 232);
     position: relative;
@@ -382,4 +378,16 @@ input::placeholder {
 
 .review-text {
     font-size: 14px;
+    width: 450px;
+}
+
+.reviews-container {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
+
+footer {
+    background-color: #005B56;
+    height: 50vh;
 }
