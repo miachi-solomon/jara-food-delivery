@@ -389,5 +389,21 @@ input::placeholder {
 
 footer {
     background-color: #005B56;
-    height: 50vh;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-title {
+    color: rgb(240, 237, 237);
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.footer-links {
+    font-size: 14px;
+}
+
+.footer-links p {
+    margin-bottom: 5px;
 }
